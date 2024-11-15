@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 47.82 16" style="enable-background:new 0 0 47.82 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F4F4F4;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st1{font-family:'ReemKufi-Regular';}
+	.st2{font-size:8px;}
+	.st3{fill:#F4F4F4;}
+	.st4{font-size:2.5677px;}
+	.st5{clip-path:url(#SVGID_00000060020223464952855220000009312227646673472912_);}
+	.st6{fill:#448DCC;}
+	.st7{clip-path:url(#SVGID_00000031919223077474052590000007824532331996049802_);}
+</style>
+<path class="st0" d="M43.88,14.75H3.77c-1.11,0-2.02-0.9-2.02-2.02V3.8c0-1.11,0.9-2.02,2.02-2.02h40.11c1.11,0,2.02,0.9,2.02,2.02
+	v8.93C45.89,13.85,44.99,14.75,43.88,14.75z"/>
+<text transform="matrix(1 0 0 1 2.6919 12.8672)" class="st1 st2">INDIO 0123</text>
+<path d="M1.75,5.39V3.91c0-1.17,0.95-2.12,2.12-2.12h39.89c1.17,0,2.12,0.95,2.12,2.12v1.48H1.75z"/>
+<text transform="matrix(1 0 0 1 15.6999 4.5491)" class="st3 st1 st4">ARGENTINA</text>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="33.3" cy="3.59" r="1.09"/>
+	</defs>
+	<clipPath id="SVGID_00000119102144725568696750000010037407365111751080_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000119102144725568696750000010037407365111751080_);">
+		<rect x="31.49" y="2.55" class="st6" width="3.41" height="0.74"/>
+		<rect x="31.49" y="3.25" class="st3" width="3.41" height="0.74"/>
+		<rect x="31.49" y="3.94" class="st6" width="3.41" height="0.74"/>
+	</g>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_00000141415761350395302250000018053091575810917008_" cx="13.7" cy="3.59" r="1.09"/>
+	</defs>
+	<clipPath id="SVGID_00000138558970297129571530000008401038008413455287_">
+		<use xlink:href="#SVGID_00000141415761350395302250000018053091575810917008_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000138558970297129571530000008401038008413455287_);">
+		
+			<rect x="12.1" y="2.55" transform="matrix(-1 -4.482915e-11 4.482915e-11 -1 27.6037 5.8446)" class="st6" width="3.41" height="0.74"/>
+		
+			<rect x="12.1" y="3.25" transform="matrix(-1 -4.482915e-11 4.482915e-11 -1 27.6037 7.2326)" class="st3" width="3.41" height="0.74"/>
+		
+			<rect x="12.1" y="3.94" transform="matrix(-1 -4.482915e-11 4.482915e-11 -1 27.6037 8.6205)" class="st6" width="3.41" height="0.74"/>
+	</g>
+</g>
+</svg>

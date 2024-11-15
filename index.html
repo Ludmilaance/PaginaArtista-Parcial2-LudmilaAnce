@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greenscape</title>
+    <link rel="stylesheet" href="estilos.css">
+<body>
+    <script src="scrip.js"></script>
+<header>
+    <a href="#" class="logo">
+        <img src="INDIOLOGO.svg" alt="">
+    </a>
+    <ul class="navbar">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#Biografia">Biografia</a></li>
+        <li><a href="#Discos">Discos</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+</header>
+<section class="home" id="home">
+    <div class="home-text">
+        <h1>PATRICIO REY</h1>
+        <p>Su estilo único y su carisma en el escenario lo convirtieron en un símbolo del rock nacional argentino.</p>
+        <a href="#" class="btn">Mas Informacion</a>
+    </div>
+    <div class="home-img">
+        <img id= "Inicio"src="BANNERINDIO.png">
+</section>
+
+<section class="Biografia" id="Biografia">
+    <div class="Biografia-img">
+        <img src="https://resizer.glanacion.com/resizer/v2/el-indio-solari-defendio-la-vacuna-rusa-y-critico-CT4SEZH4UNC4NAZJNQ26M4SKFY.jpg?auth=282cc0d8c2e1d5cbd52b545b19bec1ea846b83a0454f6784a380010458239a4f&width=768&quality=70&smart=false" alt="Quienes Somos">
+    </div>
+    <div class="Biografia-texto">
+        <h2>Patricio Rey</h2>
+        <p>Indio Solari, cuyo nombre real es Carlos Alberto García Moreno, es un icónico músico y compositor argentino, conocido principalmente por ser el líder de la influyente banda de rock Patricio Rey y sus Redonditos de Ricota. Nacido el 17 de enero de 1949 en Paraná, Entre Ríos, Solari se destacó por sus letras poéticas y crípticas, que abordan temas sociales, políticos y existenciales.
+
+            Su estilo único y su carisma en el escenario lo convirtieron en un símbolo del rock nacional argentino. Después de la disolución de la banda en 2001, Solari continuó su carrera como solista, lanzando álbumes aclamados como "El Eternauta" y "Porco Rex". Su música y su mística han dejado una huella imborrable en varias generaciones de fanáticos, consolidándolo como una figura emblemática del rock en español.
+            </p>
+    </div>
+</section>
+
+<section id="search-lyrics">
+    <h2>Encuentra la letra que buscas</h2>
+    <input type="text" id="artist" placeholder="Artista" required>
+    <input type="text" id="song" placeholder="Canción" required>
+    <button id="search-btn">Buscar Letra</button>
+    <p id="letra"></p>
+</section>
+
+<section class="Discos" id="Discos">
+    <div class="Discos-texto">
+        <h2>El Indio Solari y sus Tres Discos Emblemáticos</h2>
+        <p>El Indio Solari, ícono del rock argentino, dejó su marca con tres discos fundamentales. "Oktubre" (1986), de Los Redondos, combina rock y ritmos latinoamericanos, presentando letras poéticas que abordan el amor y la desilusión, con temas como "La Balsa" que resuenan con una generación entera. En su etapa solista, "Porky Rex" (1993) muestra un sonido más experimental y oscuro, donde canciones como "El tesoro de los inocentes" reflejan su madurez artística y búsqueda de nuevas sonoridades. Finalmente, "El tesoro de los inocentes" (2004) destaca por su introspección y melancolía, invitando a reflexionar sobre la vida y la muerte, con temas como "La madre de los dragones". Cada uno de estos discos es un hito en su carrera y un testimonio de su profunda conexión con los oyentes.</p>
+    </div>
+    <div class="Discos-img">
+        <img src="https://musica.com.ar/wp-content/uploads/2018/06/oktubre.jpeg" alt="Discos 1" id="Oktubre" class="Discos-item">
+        <div class="Discos-item">
+            <img src="https://redondossubtitulados.com/wp-content/uploads/2022/12/01.png?w=585" alt="Discos 2" id="Porkorex">
+        </div>
+        <div class="Discos-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPoPnC7eI3dbJrEzk90ySK9WJtsdnOGFTMYw&s" alt="Discos 3" id="eltesorodelosinocentes">
+        </div>
+    </div>
+    <section id="Playlist"> 
+
+        <section class="contacto" id="contacto" style="padding-top: 80px;">
+    <div class="contacto-heading" style="text-align: center;">
+        <h2>Contacto</h2>
+        <p>¿Te gustaría recibir todas las novedades del Indio?<br>
+            Rellena este formulario y te enderaras primero de todas las novedades.<br><br>
+            ¡Gracias!</p>
+    </div>
+
+    <div class="container">
+          <h2 id="Contacto">Formulario</h2> 
+        <form onsubmit="return enviarCorreo()" id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" maxlength="50" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    Acepto los términos y condiciones
+                </label>
+                <div class="form-group" id="date-status"></div>
+                <button type="submit">Enviar</button>
+            </form>
+            </div>
+
+</div>
+<script src="scrip.js"></script>
+<script src="script.js"></script>
+<script src="busquedascript.js"></script>
+</body>
+</html>
